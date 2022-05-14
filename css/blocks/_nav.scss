@@ -1,0 +1,42 @@
+.nav{
+    padding: 5px 20px;
+
+    /* mobil first: no hay menu*/
+    &-list{
+        display: none;
+    }
+}
+
+/* menu */
+@media (min-width: 768px) {
+    .nav-list {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        align-items: center;
+        list-style: none;
+        gap: 12px;
+    }
+
+    .nav-item{
+        padding: 15px 20px;
+        color:$color-font-secondary;
+
+        &:hover{
+            cursor: pointer;
+            background-color: $color-secondary;
+            color: $color-font-secondary;
+        }
+
+        &--contact{
+            border: 1px solid $color-font-primary;
+            border-radius: 12px;
+            background-color: #2c3d8b;
+        }
+
+        a {
+            color: $color-font-secondary;
+        }
+    }
+}

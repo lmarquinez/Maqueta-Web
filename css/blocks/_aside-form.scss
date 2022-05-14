@@ -1,0 +1,16 @@
+.aside-form {
+    &-item {
+        display: block;
+    }
+
+    &-input {
+        padding: 12px;
+        border-radius: 4px;
+        flex-grow: 1;
+
+        &:focus {
+            background-color: $color-secondary;
+            color: $color-font-secondary;
+        }
+    }
+}

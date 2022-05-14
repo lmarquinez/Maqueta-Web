@@ -1,0 +1,18 @@
+.main-aside {
+    &-tittle {
+        color: $color-font-secondary;
+        font-size: 3em;
+        padding-bottom: 12px;
+    }
+
+    &--info {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    &-form {
+        display: flex;
+        flex-direction: column; 
+        gap: 10px;
+    }
+}

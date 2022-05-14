@@ -1,0 +1,50 @@
+.button {
+    padding: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+
+    @media (min-width: 768px) {
+        justify-content: space-around;
+    }
+}
+
+/* boton de comprar en el articulo principal */
+.button.button--buy {
+    color: $color-font-secondary;
+    background-color: $color-button;
+    border-color: $color-button;
+
+    &:hover{
+        background-color: $color-secondary;
+        color: $color-font-primary;
+    }
+    &:active{
+        color: #1eff00;
+    }
+}
+
+/* boton formulario sorteo */
+.button-aside-form {
+    width: 40%;
+    margin-top: 8px;
+    color: $color-font-secondary;
+    background-color: $color-button;
+    border-color: $color-button;
+
+    &:hover{
+        background-color: $color-secondary;
+        color: $color-font-primary;
+    }
+}
+
+/* titulo en el bloque de nav menu */
+.nav-title {
+    font-size: 1em;
+    color: $color-font-secondary;
+}
+
+/* iconos */
+.fa-solid {
+    padding-top: 3px;
+    padding-right: 10px;
+}

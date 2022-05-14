@@ -1,0 +1,13 @@
+.main-img {
+    position: relative;
+
+    &--size {
+        padding: 10px;
+        display: inline;
+        position: absolute;
+        top: 1em;
+        left: 1em;
+        background-color: #09b11f;
+        color: $color-font-secondary;
+    }
+}

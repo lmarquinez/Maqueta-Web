@@ -1,0 +1,44 @@
+.main-accessory {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid $color-primary;
+    border-radius: 5px;
+    padding: 12px;
+    margin-bottom: 10px;
+
+    @media (min-width: 768px){
+        flex-basis: 25%;
+    }
+
+    &-title {
+        font-size: 1em;
+    }
+
+    &-img{
+        margin-bottom: 12px;
+        height: 150px;
+    }
+
+    &--info{
+        margin-top: 12px;
+    }
+
+    &-button {
+        display: inline-block;
+        margin-top: 4px;
+        margin-bottom: 4px;
+        border-radius: 5px;
+        padding: 12px;
+        color: $color-font-secondary;
+    }
+
+    &--offer {
+        background-color: $color-offer;
+        border-color: $color-offer;
+    }
+
+    &--new {
+        background-color: $color-button;
+        border-color: $color-button;
+    }
+}
